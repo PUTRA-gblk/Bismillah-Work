@@ -1001,7 +1001,7 @@ break
 case 'daftar':
   if (isRegister) return reply('Akun kamu sudah terdaftar di database')
 if (isBan) return reply(mess.banned)
-if (m.isGroup) return reply('Daftar di private message')
+if (m.isGroup) return reply('Mau Daftar? Daftar di private message')
 const serialUser = createSerial(18)
 try {
 ppimg = await naimi.profilePictureUrl(`${sender.split('@')[0]}@c.us`)
